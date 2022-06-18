@@ -1,0 +1,152 @@
+.hidden,
+#yellow {
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background-color: black;
+}
+
+#arr {
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+
+#kv {
+  max-width: 70%;
+  margin: auto;
+}
+
+#kv > div {
+  float: left;
+}
+
+form {
+  margin: 4%;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  visibility: hidden;
+  margin: 2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: red;
+}
+
+#green {
+  visibility: hidden;
+  margin: 2px;
+  width: 50px;
+  height: 20px;
+  border-radius: 10%;
+  background-color: green;
+}
+
+#rek {
+  max-width: max-content;
+  min-width: min-content;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+#rek > p {
+  margin-top: 1px;
+  max-width: max-content;
+  min-width: min-content;
+  background-color: burlywood;
+}
+
+html {
+  height: 10000px;
+}
+
+#scrollButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: green;
+  text-align: center;
+  visibility: hidden;
+}
+#scrollButton:hover,
+#scrollButton:focus {
+  filter: brightness(1.5);
+}
+#up {
+  font-size: 22px;
+}
+#boxInTheBox {
+  background-color: white;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  border-radius: 10%;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+#block {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.5;
+  display: none;
+}
+#file {
+  height: 0.1px;
+  width: 0.1px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.form-group {
+  padding: 1em;
+  margin: 1em;
+}
+
+.label {
+  position: relative;
+  width: 120px;
+  border: 2px dashed grey;
+  border-radius: 5px;
+  display: block;
+  padding: 1.2em;
+  cursor: pointer;
+  text-align: center;
+}
+
+.label i {
+  display: block;
+  font-size: 42px;
+  padding-bottom: 16px;
+}
+
+.label i,
+.label .title {
+  color: grey;
+  transition: 200ms color;
+}
+
+.label:hover i,
+.label:hover .title {
+  color: #0d6efd;
+}
